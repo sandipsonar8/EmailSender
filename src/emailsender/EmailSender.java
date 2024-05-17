@@ -48,7 +48,7 @@ public class EmailSender {
         // Create the email message with HTML formatting
         String message = "<html><body><h2 style=\"color:blue;\">Dear valued subscriber,</h2>"
                 + "<p>We hope this message finds you well.</p>"
-                + "<p>We are pleased to bring you the latest updates from RDX India.</p>"
+                + "<p>We are pleased to bring you the latest updates from [].</p>"
                 + "<p>Our team has been working diligently to enhance our services and provide you with an even better experience.</p>"
                 + "<p>We are excited to announce some upcoming changes:</p>"
                 + "<ul>"
@@ -58,10 +58,10 @@ public class EmailSender {
                 + "</ul>"
                 + "<p>We are committed to continually improving our services and delivering value to our customers.</p>"
                 + "<p><span style=\"font-size:20px;color:red;\">Current Time: " + formattedTime + "</span></p>"
-                + "<p>Thank you for choosing RDX India. We appreciate your continued support.</p>"
-                + "<p>Best regards,<br>RDX India Team</p></body></html>";
+                + "<p>Thank you for choosing []. We appreciate your continued support.</p>"
+                + "<p>Best regards,<br>[]</p></body></html>";
 
-        String subject = "🚀 Scheduled Update from RDX India: Exciting Changes Ahead! 🎉";
+        String subject = "🚀 Scheduled Update from []: Exciting Changes Ahead! 🎉";
 
         Connection con = null;
         PreparedStatement pstmt = null;
